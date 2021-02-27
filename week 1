@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Week 1</title>
+  <style> a {text-decoration: none;}</style>
+  <style type="text/css">
+  .wrap{font-size: 20px;width: 100%;max-width: 1400px;margin: auto;}
+  .menu{float: right;padding-inline: 15px;list-style: none;}
+  .welcome{background-color:#b1defc;height: 300px;
+  font-size: 200%;
+  text-align: center;line-height: 300px;
+  margin-top: 10px;margin-bottom: 10px;
+  }
+  img {
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+  }
+  .table{width: 1200px;margin: 0px auto;position: relative;}
+  .pic{height: auto;width: 300px;padding: 10px;position: relative;}
+  @media screen and (max-width: 600px;){
+    .wrap{width: 90%;}
+    .table{width: 90%;}
+    .pic{width: 90%;}
+  }
+  @media only screen and (min-width: 600px) and (max-width: 1200px){
+    .wrap{width: 90%;}
+    .table{width: 90%;}
+    .pic{width: 90%;}
+  }
+  </style>
+</head>  
+<body>
+<div class="wrap">
+  <div style="text-align: right;"><ul>
+  <span class="menu"><li><a href="#">Item 4</a></li></span>
+  <span class="menu"><li><a href="#">Item 3</a></li></span>
+  <span class="menu"><li><a href="#">Item 2</a></li></span>
+  <span class="menu"><li><a href="#">Item 1</a></li></span>
+  </ul></div>  
+  <div>
+    My Website  
+  </div>
+  
+  <div class="welcome">
+    Welcome to My Home
+  </div>
+
+  <table class="table">
+    <tr>
+      <td><img src="bacbac.jpg" class="pic"></td>
+      <td><img src="bacbac.jpg" class="pic"></td>
+      <td><img src="bacbac.jpg" class="pic"></td>
+      <td><img src="bacbac.jpg" class="pic"></td>
+    </tr>
+    <tr>
+      <td align="center" style="width: 250px;height: 20px;">Title 1</td>
+      <td align="center" style="width: 250px;height: 20px;">Title 2</td>
+      <td align="center" style="width: 250px;height: 20px;">Title 3</td>
+      <td align="center" style="width: 250px;height: 20px;">Title 4</td>
+    </tr>
+    <tr>
+      <td><img src="bacbac.jpg" class="pic"></td>
+      <td><img src="bacbac.jpg" class="pic"></td>
+      <td><img src="bacbac.jpg" class="pic"></td>
+      <td><img src="bacbac.jpg" class="pic"></td>
+    </tr>
+    <tr>
+      <td align="center" style="width: 250px;height: 20px;">Title 5</td>
+      <td align="center" style="width: 250px;height: 20px;">Title 6</td>
+      <td align="center" style="width: 250px;height: 20px;">Title 7</td>
+      <td align="center" style="width: 250px;height: 20px;">Title 8</td>
+    </tr>
+    
+  </table>
+  
+  
+
+    
+  
+  </div>
+</div>
+</body>
+</html>
